@@ -1,0 +1,117 @@
+body{
+    margin:0% 1vh;
+    overflow:auto;
+    background-color: white;
+    font-family: 'Garamond', Arial;
+    background: linear-gradient(to top,#FFFFFF,#FFEFBA); 
+}
+/*Header and Nav*/
+
+header{  
+    display:flex;
+    position:sticky; 
+    top:0;
+    justify-content:center;
+    align-items:center;
+    background-color:transparent; 
+    width:100%;
+    height:8vh;
+    opacity:0;
+    font-size:13px;
+    z-index:100;
+}
+.elements{
+    top:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    height:100%;
+    cursor:pointer;
+}
+.elements:hover .navigation{
+    display:flex;
+    width:100%;
+    height:25%;
+}
+.elements:hover .nav1{
+    display:flex;
+}
+.brand{
+    display:flex;
+    /*width:20vw;*/
+    position:relative;
+    cursor:pointer;
+    text-decoration:none;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:-2px;
+} 
+.navigation{
+    display:grid;
+    background-color:rgb(51, 51, 51);
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    position:sticky;
+    padding:auto;
+    border-radius:10px;
+    width:15%;
+    height:0.09vh;
+    flex-direction:row;
+    transition-duration:500ms;
+}
+.nav1{
+    display:none;
+    color:white;
+    text-decoration:none;
+}
+.nav1:hover{
+    color: rgb(94, 94, 94);
+}
+.language{
+    display:none;
+    flex-direction:row;
+    justify-self:self-end;
+    cursor:pointer;
+}
+.title{
+    opacity:1;
+    display:flex;
+    align-items:Center;
+    justify-content:center;
+    font-size:2em;
+    margin:10px;
+    height:50px;
+}
+section{
+    margin:auto;
+    opacity:0;
+    background-color:transparent;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+/* Footer */
+footer{
+    display:flex;
+    opacity:0;
+    background-color:transparent;
+    width:100%;
+    height:5vh;
+}
+.contactLinks{
+    display:inline-flex;
+    height:100%;
+    width:100%;
+    align-items:center;
+    justify-content:space-around;
+}
+i{
+    cursor:pointer;
+}
+
+.error{
+    border-color:Red;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/IntroStyles.css">
+    <link rel="stylesheet" href="./Styles/Styles1.css">
+    <link rel="stylesheet" href="./Styles/Home.css">
+    <link rel="stylesheet" href="./Styles/About.css">
+    <link rel="stylesheet" href="./Styles/Contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CV/data/css/all.min.css">
+  <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="elements">
+            <span class="brand" href="Home.html">GM</span>
+            <!--    <span class="language">ESP</span>
+                    <span class="language">ENG</span>   -->
+            <nav class="navigation"> 
+                <a class="nav1" href="#Home">Home</a> 
+                <a class="nav1" href="#About">About</a>
+                <a class="nav1" href="#Contact">Contact</a>
+            </nav>
+        </div> 
+    </header>
+    <div class="intro">  
+        <div id="introText"class="intro-text">
+            <h1 class="hide">
+              <div class="initial1">G</div>
+              <div class="text">onzalo</div>
+              <div class="initial2">M</div>
+              <div class="text">onicat</div>
+            </h1>
+        </div>
+    </div>
+
+    <section class="section" id="Home" >
+        <h1 id="Home1"class="title visible">Home</h1>
+    </section>
+
+    <section class="section" id="About">
+        <h1 class="title visible">About</h1>
+        <div class="cards">
+            <div class="card visible">
+                <div id="Technology">
+                    <a class="CInfoBtn" href="#"></a>
+                </div>
+               <div  class="Hovereable">
+                   <h3 class="CardTitle">Technology</h3>
+                   <h3 class="CardInfo">adsfhgaerg</h3>
+                </div>
+                
+            </div>
+            <div class="card visible">
+                <div id="Development">
+                     <a class="CInfoBtn" href="#"></a>
+                 </div>
+                <div class="Hovereable">
+                    <h3 class="CardTitle">Development</h3>
+                    <h3 class="CardInfo">adsfhgaerg</h3>
+                 </div>
+                 
+            </div>
+            <div class="card visible">
+                <div id="Blockchain">
+                     <a class="CInfoBtn" href="#"></a>
+                 </div>
+                <div class="Hovereable">
+                    <h3 class="CardTitle">Web3</h3>
+                    <h3 class="CardInfo">adsfhgaerg</h3>
+                 </div>
+            </div>
+            <div class="card visible">
+                <div id="Esports">
+                     <a class="CInfoBtn" href="#"></a>
+                 </div>
+                <div class="Hovereable">
+                    <h3 class="CardTitle">Esports</h3>
+                    <h3 class="CardInfo">adsfhgaerg</h3>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Contact">        
+        <div class="contactContent">
+            <div class="calendar visible">
+                <iframe src="https://calendar.google.com/calendar/embed?height=375&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&src=YXByb3Nnb256YWxvQGdtYWlsLmNvbQ&src=Y2k1OGxicHV0YmlxdWUya2M5bG1la3ZlcG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%237986CB&color=%230B8043" style="border:solid 1px #777" width="500" height="375" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="mobileCalendar visible">
+                <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&src=YXByb3Nnb256YWxvQGdtYWlsLmNvbQ&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043" style="border:solid 1px #777" width="360" height="400" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="formDiv">
+                <form class="form visible">
+                    <label>
+                        <span class="formText1">Complete the Form to get in touch with me!</span>
+                        <span class="formText2">Form to get in touch with me!</span>
+                        <span class="formText3">Get in touch with me!</span>
+                    </label>
+                <input type="text" id="fname" placeholder="First Name">
+                <input type="text" id="lname" placeholder="Last Name">
+                <input type="text" id="mail" placeholder="Mail">
+                <input type="text" id="phone" placeholder="Phone">
+                <input type="text" id="comments" placeholder="Comments">
+                <label class="labelText1">Select a date to have a meeting</label>
+                <label class="labelText2">Date to have a meeting</label>
+                <label class="labelText3">Meeting date</label>
+                <input type="datetime-local"></input>              
+                <button type="button" id="Send" onclick="validateContactForm()">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contactLinks visible">
+                <i class="fa-brands fa-instagram fa-1g" href="#"></i>
+                <i class="fa-brands fa-telegram fa-1g" href="#"></i>
+                <i class="fa-brands fa-facebook fa-1g" href="#"></i>
+                <i class="fa-brands fa-whatsapp fa-1g" href="#"></i>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script sourceType="script" src="Motions.js"></script>
+    <script sourceType="script" src="Site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</body>
+
+</html>
