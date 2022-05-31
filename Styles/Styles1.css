@@ -73,7 +73,6 @@ header{
 .language{
     display:none;
     flex-direction:row;
-    justify-self:self-end;
     cursor:pointer;
 }
 .title{
