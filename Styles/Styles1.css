@@ -107,7 +107,7 @@ footer{
     align-items:center;
     justify-content:space-around;
 }
-i{
+.fa-brands{
     cursor:pointer;
 }
 
