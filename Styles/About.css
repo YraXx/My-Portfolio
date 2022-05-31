@@ -30,16 +30,18 @@
 }
 #Technology{
     background-image:url('https://media3.giphy.com/media/wfV2vfLPuCk45AAEFN/giphy.gif?cid=790b761122b96be01235dd7bcf023410c4139bf12535a199&rid=giphy.gif&ct=g');
+    background-size:cover;
 }
 #Development{
     background-image:url('https://media2.giphy.com/media/vEI90Lk9hM03oShQeB/giphy.gif?cid=790b7611ad19481c79ab199adb1b7cde0605f9b82a37cb3d&rid=giphy.gif&ct=g');
-    background-size:100% 100%;
 }
 #Blockchain{
     background-image:url('https://media4.giphy.com/media/EWk25tFNCgqlV7yh1I/giphy.gif?cid=790b7611ec064c883eef51f486f8f3d56a50f7a1f979af07&rid=giphy.gif&ct=g');
+    background-size:cover;
 }
 #Esports{
-    background-image:url('https://media1.giphy.com/media/1X2OPnpRB44zhXxP3Z/giphy.gif?cid=790b7611a38af9c39223ce16f60f43d643c680baaa8b394f&rid=giphy.gif&ct=g');
+    background-image:url('https://media1.giphy.com/media/ffbnYTayy5DbzaUsNn/giphy.gif');
+    background-size:cover;
 }
 .card div{
     width:400px;
