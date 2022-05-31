@@ -7,7 +7,7 @@
     display:flex;
     flex-direction:row;
     padding:20px;
-    margin:auto;
+    margin:0;
 }
 
 input{
@@ -105,10 +105,9 @@ input{
         display:none;
     }
 }
-
-@media all and (max-width:1050px) {
+@media all and (max-width:850px) {
     #Contact{
-        height:100vh;
+        height:auto;
     }
     .calendar{
         display:none;
@@ -118,11 +117,10 @@ input{
         height:70%;
     }
     .contactContent{
-        flex-direction:column;
+        flex-direction:row;
         justify-items:center;
         align-items:center;
         height:90%;
-        margin:5% 0;
     }
     .form{
         align-items:center;
@@ -149,27 +147,84 @@ input{
         display:flex;
     }
 }
-@media all and (max-height:800px) {
-    #Contact{
-        height:100vh;
+
+@media all and (max-width:615px){
+    .calendar{
+        display:none;
+    }   
+    .mobileCalendar{
+        display:flex;
+        height:70%;
     }
     .contactContent{
+        flex-direction:column;
+        justify-items:center;
+        align-items:center;
+        height:90%;
+        padding:0.5% 0.5%;
+    }
+    .formDiv{
+        padding:5% 5%;
+    }
+    .form{
+        align-items:center;
+        width:200px;
+        height:185px;
+        margin:0;
+    }
+}
+
+
+@media (max-width:615px) and (max-height:800px) {
+    #Contact{
+        height:auto;
+    }
+    .contactContent{
+        flex-direction:column;
         height:100%;
     }
     .calendar{
+        display:none;
         width:90%;
     }
+    .mobileCalendar{
+        display:none;
+        height:60%;
+    }
     .formDiv{
-        padding-top:5%;
-        width:150px;
-        height:200px;  
+        display:flex;
+        width:90%;
+        margin:auto;
+        justify-content:center;
+        align-items:center;
     }
     .form{
-
-        align-items:center;
-        width:100%;
+        width:90%;
         height:100%;
-        margin:0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        border:1px solid;
+        border-radius:4px;
+        align-items:center;
+        justify-content:space-evenly
     }
-
+    .formText1{
+        display:none;
+    }
+    .formText2{
+        display:flex;
+    }
+    .formText3{
+        display:none;
+    }
+    .labelText1{
+        display:none;
+    }
+    .labelText2{
+        display:flex;
+    }
+    .labelText3{
+        display:none;
+    }
 }

@@ -1,6 +1,37 @@
-#Home h1{
-    transform:TranslateY(50%)
-}
+
 #Home{
-    height:70vh;
+    height:100vh;
+}
+.homeContent{
+    display:flex;
+    position:relative;
+    flex-direction:row;
+    height:80vh;
+    width:100%;
+    background:url('../data/Images/Cv-Image.png');
+}
+.homeText{
+    position:relative;
+    height:auto;
+    width:500px;
+    padding:auto;
+    align-items:center;
+    justify-content:center;
+    top:450px;
+    left:300px;
+}
+#Home1{
+    font-size:20px;
+    color: rgb(148, 142, 110);
+    margin:0;
+}
+#Home2{
+    font-size:60px;
+    margin:0 0 20px 0;
+}
+#Home3 a{
+    text-decoration:none;
+}
+#Home3 a{
+    
 }

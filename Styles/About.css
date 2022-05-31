@@ -5,11 +5,13 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows:auto;
-    padding:2% 2%;
+    padding: 4% 4%;
     margin:auto;
     height:auto;
 }
 .card{
+    width:auto;
+    height:auto;
     margin:auto;
     padding:auto;
 }
@@ -18,7 +20,9 @@
 }
 .CardInfo{
     display:none;
+    text-decoration:none;
     opacity:0;
+    
 }
 .CInfoBtn{
     margin:auto;
@@ -38,10 +42,10 @@
     background-image:url('https://media1.giphy.com/media/1X2OPnpRB44zhXxP3Z/giphy.gif?cid=790b7611a38af9c39223ce16f60f43d643c680baaa8b394f&rid=giphy.gif&ct=g');
 }
 .card div{
-    width:300px;
-    height:200px;
+    width:400px;
+    height:267px;
     margin:auto;
-    border:2px solid;
+    border:0.001px solid;
     text-align:center;
     justify-content:center;
     transition:0.5s;
@@ -54,7 +58,7 @@
     transform:translateY(50%);
 }
 .card div:nth-child(2){
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     display:flex;
     position:relative;
     z-index:10;
@@ -94,11 +98,13 @@
 
 @media all and (max-width:1050px) {
     #About{
-        height:200vh;
+        height:auto;
     }
     .cards{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+        margin:2% 2%;
+        padding:2% 2%;
     }
 }
 @media all and (max-height:800px) {

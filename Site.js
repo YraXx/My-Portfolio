@@ -20,7 +20,6 @@ function fadeOut(){
     for(var i=0;i<collElms.length;i++){
         let collapse = elms[collElms[i]].getBoundingClientRect().top;
         if (collapse<header){
-        console.log(elms[collElms[i]])
             gsap.to(elms[collElms[i]],{opacity:0.15});
         } else{
             gsap.to(elms[collElms[i]],{opacity:1});
