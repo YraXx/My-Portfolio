@@ -9,7 +9,7 @@ tl.to(".text",{opacity:0,duration:0.5, delay:0.2});
 tl.to(".initial1",{x:"-55%",rotationZ:720,duration:0.6},"<");
 tl.to(".initial2",{x:"35%",duration:0.6},"<")
 tl.to(".initial2",{rotationZ:-720,duration:0.25},"<");
-/*tl.from(".intro",{y:"50%",duration:1})*/
+tl.from(".intro",{y:"50%",duration:1})
 tl.to("header,footer, .About",{opacity:1, duration:1,delay:1},"<");
 tl.to(".intro",{opacity:0, duration:0.5},"<");
 tl.to(".intro",{display:"none"},"<");
